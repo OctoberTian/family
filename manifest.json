@@ -1,0 +1,28 @@
+{
+  "name": "全家 - 肥梨计划",
+  "short_name": "全家",
+  "start_url": "/",
+  "display": "standalone",
+//  fullscreen：全屏显示，会尽可能将所有的显示区域都占满；
+//  standalone：独立应用模式，这种模式下打开的应用有自己的启动图标，并且不会有浏览器的地址栏。因此看起来更像一个Native App；
+//  minimal-ui：与standalone相比，该模式会多出地址栏；
+//  browser：一般来说，会和正常使用浏览器打开样式一致
+  "background_color": "rgb(165, 145, 108)",
+  "description": "家庭全家桶，可以安排计划以及打卡学习等",
+  //Webapp的方向any, natural, landscape, landscape-primary, landscape-secondary, portrait, portrait-primary, portrait-secondary
+  "orientation": "portrait-primary",
+  "theme_color": "#5eace0",
+  "icons": [{
+    "src": "img/icons/family-128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  },{
+    "src": "img/icons/family-256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": "img/icons/family-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
